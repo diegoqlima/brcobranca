@@ -42,7 +42,7 @@ module Brcobranca
     def modulo11_mercantil
       num = 2
       array = []
-      1.upto(self.size)
+      1.upto(self.size) do
         array.push(num)
         num += 1
         if num > 9
